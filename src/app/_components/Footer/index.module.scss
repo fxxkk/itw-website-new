@@ -10,6 +10,17 @@
   }
 }
 
+footer a {
+  color: #ffffff; /* Standardmäßig weiß */
+  background-color: #333333; /* Standardmäßig dunkel */
+  padding: 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 0.8; /* Leicht transparent beim Hover */
+}
+
 :global([data-theme="dark"]) {
   .footer {
     background-color: var(--theme-elevation-50);
