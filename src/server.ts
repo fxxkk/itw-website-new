@@ -13,6 +13,7 @@ import payload from 'payload'
 import { seed } from './payload/seed'
 
 const app = express()
+app.use('/assets', express.static(path.resolve(__dirname, './assets')));
 const PORT = process.env.PORT || 3000
 
 const start = async (): Promise<void> => {

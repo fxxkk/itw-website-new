@@ -74,6 +74,11 @@ export default buildConfig({
         },
       }
     },
+    meta: {
+      titleSuffix: '- TRBL Design',
+      favicon: '/assets/favicon.ico',
+      ogImage: '/assets/image-1.jpg',
+    },
   },
   editor: slateEditor({}), // editor-config
   // database-adapter-config-start
